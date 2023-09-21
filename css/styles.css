@@ -34,7 +34,6 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid #b82766;
 }
 .section {
   padding-top: 120px;
@@ -61,6 +60,8 @@ img {
 }
 
 .container-header {
+  display: flex;
+  width: 1158px;
 }
 .header-nav {
   display: flex;
@@ -91,7 +92,8 @@ img {
   display: flex;
   gap: 40px;
 }
-
+.header-menu-item {
+}
 .header-menu-link {
   color: #2e2f42;
   padding: 24px 0;
@@ -108,7 +110,8 @@ img {
 .address-list {
   display: flex;
   gap: 40px;
-  justify-content: flex-end;
+}
+.address-list-item {
 }
 .address-list-link {
   color: #434455;
@@ -260,8 +263,6 @@ img {
 /* ====================Portfolio=================== */
 
 .portfolio {
-  padding-right: 156px;
-  padding-left: 156px;
 }
 
 .portfolio-container {
