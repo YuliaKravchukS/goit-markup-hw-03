@@ -60,6 +60,8 @@ img {
   background: var(--WHITE, #fff);
 }
 
+.container-header {
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -106,6 +108,7 @@ img {
 .address-list {
   display: flex;
   gap: 40px;
+  justify-content: flex-end;
 }
 .address-list-link {
   color: #434455;
@@ -205,8 +208,6 @@ img {
 
 .team {
   background-color: #f4f4fd;
-  padding-right: 156px;
-  padding-left: 156px;
 }
 
 .team-container {
@@ -228,10 +229,13 @@ img {
 .team-list-item {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-photo {
-  margin-bottom: 32px;
+}
+.card-team {
+  padding: 32px 0;
 }
 .team-list-subtittle {
   color: #2e2f42;
@@ -312,10 +316,10 @@ img {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
-  padding: 100px 0;
 }
 .footer-link {
   color: #4d5ae5;
