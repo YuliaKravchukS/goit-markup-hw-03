@@ -61,7 +61,7 @@ img {
 
 .container-header {
   display: flex;
-  width: 1158px;
+  align-items: center;
 }
 .header-nav {
   display: flex;
@@ -92,7 +92,10 @@ img {
   display: flex;
   gap: 40px;
 }
-.header-menu-item {
+.header-menu a {
+  display: inline-block;
+}
+..header-menu-item {
 }
 .header-menu-link {
   color: #2e2f42;
@@ -104,9 +107,12 @@ img {
   color: #404bbf;
 }
 .address {
+  margin-left: auto;
   font-style: normal;
 }
-
+.address a {
+  display: inline-block;
+}
 .address-list {
   display: flex;
   gap: 40px;
@@ -179,7 +185,6 @@ img {
 }
 
 .feature-container {
-  padding: 120px 156px;
 }
 .feature h3 {
   color: #2e2f42;
@@ -203,7 +208,6 @@ img {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  margin-bottom: 8px;
 }
 /* ======================================= */
 
@@ -255,7 +259,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  margin-bottom: 32px;
 }
 
 /* ======================================= */
